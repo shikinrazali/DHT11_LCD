@@ -1,5 +1,6 @@
-include <LiquidCrystal_I2C.h>
 #include <DHT.h>
+#include <LiquidCrystal_I2C.h>
+
 #define DHT11_PIN D4 // The ESP8266 pin D7 connected to DHT11 sensor 
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // I2C address 0x27 (from DIYables LCD), 16 column and 2 rows
